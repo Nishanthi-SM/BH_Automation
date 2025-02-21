@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{DD9BB950-929A-429C-ACD5-3F8845B2C1B6}">
+	<children>
+		<child name="BH automation" key="{81CF5224-C5AB-4161-9136-56559F156344}" path="BH automation\BH automation.mds" />
+	</children>
+	<testItems key="{A95485A7-25EC-4D2A-B2AC-B37F72201D00}">
+		<children>
+			<testItem key="{81CF5224-C5AB-4161-9136-56559F156344}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{AAA99110-7A19-4F29-918E-98708FF958D3}" />
+	<analysis key="{21DE4539-3A88-4206-92CD-623BFD539F13}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

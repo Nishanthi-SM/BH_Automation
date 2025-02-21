@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Step_Definition" key="{333BD89B-C4C5-4EB2-9FA8-B7D9E7EA87AD}" path="Step_Definition.js" />
+		<child name="FunctionLibrary" key="{B9105584-9481-4008-8104-25F0B1003781}" path="FunctionLibrary.js" />
+		<child name="Objects_Repository" key="{935112CC-7D28-4143-943A-643D0F3D122A}" path="Objects_Repository.js" />
+		<child name="Object_Identifier" key="{4A9FC3A9-8A75-4FBD-BC54-3E2473CFD41A}" path="Object_Identifier.js" />
+	</children>
+</Root>
