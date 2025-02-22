@@ -9,7 +9,15 @@
 	<testItems key="{3453BCF5-F929-42D2-95CB-DA438F6A2EF6}" version="14">
 		<children />
 	</testItems>
-	<variables key="{F5D31182-54BC-415E-8E59-6E6E7B738B73}" />
+	<variables key="{F5D31182-54BC-415E-8E59-6E6E7B738B73}">
+		<data Version="4">
+			<Items>
+				<Variable Name="BrowserName" Type="String" Local="True" Descr="Specify the browser name ">
+					<DefValue StrValue="chrome" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{D83EEFB1-AE7E-4CA1-80CD-F58C9FC5B1F1}">
 		<settingsVersion value="15.67" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />

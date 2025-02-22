@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{B9105584-9481-4008-8104-25F0B1003781}"/>
+				<Prp name="activity" type="S" value="{011441C0-F6A8-457E-BB32-94325505A054}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
 				<Node name="{70963384-bc96-45dd-8bbf-f4aa3ecd7975}">
@@ -33,7 +33,7 @@
 					<Node name="0">
 						<Node name="editor">
 							<Node name="{93765269-c25d-4cd5-b6bf-5d7454869c93}">
-								<Prp name="key" type="S" value="{462D534B-789A-4D38-8C6A-9E7CB0276621}"/>
+								<Prp name="key" type="S" value="{75BBE983-8E01-4A9A-A92E-69CCE8CE198B}"/>
 							</Node>
 							<Prp name="editor" type="S" value="{F65DD264-2D27-42E3-B2E5-E61D97D2AE90}"/>
 							<Prp name="focused" type="S" value="{462D534B-789A-4D38-8C6A-9E7CB0276621}"/>
@@ -140,6 +140,7 @@
 							<Node name="{9185a4c3-0780-497d-b02d-ad3af4e9cf98}">
 								<Prp name="key" type="S" value="{B0048EE3-94FC-4D3F-9174-768A9684F77E}"/>
 							</Node>
+							<Node name="{98f67204-5328-4e0e-99f5-6d1b1e6d4971}"/>
 							<Prp name="editor" type="S" value="{49ED9866-550D-4297-8B3C-91B644B3E77A}"/>
 							<Prp name="focused" type="S" value="{B63DB515-93F7-4065-9078-D7D3AB50917C}"/>
 						</Node>
@@ -153,12 +154,24 @@
 			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
 				<Prp name="history" type="S" value=""/>
 			</Node>
-			<Node name="{86873e45-42bf-4c44-8fbd-d6bdfbfd5189}"/>
+			<Node name="{86873e45-42bf-4c44-8fbd-d6bdfbfd5189}">
+				<Node name="0">
+					<Prp name="column" type="I" value="2147483647"/>
+					<Prp name="condition" type="S" value=""/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="executable" type="B" value="-1"/>
+					<Prp name="line" type="I" value="14"/>
+					<Prp name="owner" type="S" value="{B9105584-9481-4008-8104-25F0B1003781}"/>
+					<Prp name="pass count" type="I" value="0"/>
+				</Node>
+			</Node>
 			<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 				<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}"/>
 			</Node>
 			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
 				<Node name="{00000000-0000-0000-0000-000000000000}">
+					<Node name="{011441c0-f6a8-457e-bb32-94325505a054}"/>
 					<Node name="{333bd89b-c4c5-4eb2-9fa8-b7d9e7ea87ad}">
 						<Node name="0">
 							<Prp name="bottom" type="I" value="5"/>

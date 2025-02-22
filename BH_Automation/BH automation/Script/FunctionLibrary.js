@@ -12,7 +12,7 @@
 function LaunchBrowser(){
   try{
     Log.AppendFolder("Launching Browser");
-    Browsers.Item(btChrome).Run("http://BrightHorizons.com");
+    Browsers.Item(Project.Variables.BrowserName).Run("http://BrightHorizons.com");
     Log.PopLogFolder();
  }
  catch(e){

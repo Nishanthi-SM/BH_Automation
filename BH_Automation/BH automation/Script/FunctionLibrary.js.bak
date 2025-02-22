@@ -12,7 +12,7 @@
 function LaunchBrowser(){
   try{
     Log.AppendFolder("Launching Browser");
-    Browsers.Item(btChrome).Run("http://BrightHorizons.com");
+    Browsers.Item(Project.Variables.BrowserName).Run("http://BrightHorizons.com");
     Log.PopLogFolder();
  }
  catch(e){
@@ -291,7 +291,7 @@ function Verify_the_value_dispalyed_inMap_and_List(){
     
     let centerAddressMap = objParent.querySelector('.mapTooltip__address').innerText;
     Log.Message(centerAddressMap);
-    centerAddressMap = .replace(/\n/g, ' ');
+    centerAddressMap = centerAddressMap.replace(/\n/g, ' ');
     if(strictEqual(centerName,centerNameMap) && strictEqual(centerAddress,centerAddressMap)){
       Log.Checkpoint("The name displayed in the list and the map is the same");
     }else{
